@@ -2716,7 +2716,7 @@ input, select, textarea {
 	}
 
 		header.major h2 {
-			font-size: 2em;
+			font-size: 3em;
 		}
 
 			header.major h2:after {
@@ -3980,3 +3980,6 @@ canvas{ display: block;
 	z-index: -1;
 }
 
+.resume-item {
+	text-align: left;
+}
