@@ -1956,8 +1956,6 @@ button,
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  border-radius: 8px;
-  border: 0;
   cursor: pointer;
   display: inline-block;
   font-weight: 300;
@@ -2040,7 +2038,7 @@ input[type="button"],
 button,
 .button {
   background-color: transparent;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+  /*box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35); */
   color: #ffffff !important;
 }
 
@@ -3561,16 +3559,21 @@ body.is-preload #header.alt .logo {
   border-color: #dddddd;
 }
 
+
+/*
+
 #main input[type="submit"],
 #main input[type="reset"],
 #main input[type="button"],
 #main button,
 #main .button {
-  background-color: transparent;
+   background-color: transparent; 
   box-shadow: inset 0 0 0 1px #dddddd;
-  color: #494949 !important;
+  color: #494949 !important; 
 }
+*/
 
+/*
 #main input[type="submit"]:hover,
 #main input[type="reset"]:hover,
 #main input[type="button"]:hover,
@@ -3578,6 +3581,8 @@ body.is-preload #header.alt .logo {
 #main .button:hover {
   background-color: rgba(222, 222, 222, 0.25);
 }
+
+*/
 
 #main input[type="submit"]:active,
 #main input[type="reset"]:active,
@@ -3594,6 +3599,7 @@ body.is-preload #header.alt .logo {
 #main .button.icon:before {
   color: rgba(99, 99, 99, 0.25);
 }
+
 
 #main input[type="submit"].primary,
 #main input[type="reset"].primary,
@@ -4105,26 +4111,36 @@ canvas {
 /* Accordion */
 
 button.accordion {
-  background-color: #eee;
-  color: #444;
+  background-color:rgba(36, 11, 54, 1);
+  color: #080808;
   cursor: pointer;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 1.05em;
+  font-weight: 400;
   transition: 0.3s;
+  margin-top: 2px;
+  border-radius: 8px;
 }
 
-button.accordion.active,
+
+button.accordion.active{
+	border-radius: 8px 8px 0px 0px;
+	background-color: rgba(195, 20, 50, 1);
+	margin-bottom: -2px;
+}
+
 button.accordion:hover {
-  background-color: #ddd;
+  background-color: rgba(195, 20, 50, 1);
+  
 }
 
 button.accordion:after {
   content: "\02795";
   font-size: 13px;
-  color: #777;
+  color: white;
   float: right;
   margin-left: 5px;
 }
@@ -4140,9 +4156,25 @@ div.panel {
   overflow: hidden;
   transition: 0.5s ease-in-out;
   opacity: 0;
+  border-left: solid 5px rgba(195, 20, 50, 1);
+  border-right: solid 5px rgba(195, 20, 50, 1);
+  border-bottom:solid 5px rgba(195, 20, 50, 1);
+  border-top: solid 2px rgba(195, 20, 50, 1);
+  border-radius: 0px 0px 8px 8px;
 }
 
 div.panel.show {
   opacity: 1;
   max-height: 500px;
+  border-left: solid 5px rgba(195, 20, 50, 1);
+  border-right: solid 5px rgba(195, 20, 50, 1);
+  border-bottom:solid 5px rgba(195, 20, 50, 1);
+  border-top: solid 2px rgba(195, 20, 50, 1);
+  margin-bottom: 5px;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.accordion-tray {
+	margin-top: 1em;
+	margin-bottom: 3em;
 }
