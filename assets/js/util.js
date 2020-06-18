@@ -1,3 +1,4 @@
+/* From Stellar html5up.net */
 (function($) {
 
 	/**

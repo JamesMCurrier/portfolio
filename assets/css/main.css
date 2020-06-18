@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400";
 
-/*
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html,
 body,
 div,
@@ -3582,7 +3576,7 @@ body.is-preload #header.alt .logo {
   background-color: rgba(222, 222, 222, 0.25);
 }
 
-*/
+
 
 #main input[type="submit"]:active,
 #main input[type="reset"]:active,
@@ -3591,6 +3585,8 @@ body.is-preload #header.alt .logo {
 #main .button:active {
   background-color: rgba(222, 222, 222, 0.5);
 }
+*/
+
 
 #main input[type="submit"].icon:before,
 #main input[type="reset"].icon:before,
@@ -4126,6 +4122,11 @@ button.accordion {
 }
 
 
+#main button:active{
+	background-color: rgba(110, 16, 52, 0.75);
+}
+
+
 button.accordion.active{
 	border-radius: 8px 8px 0px 0px;
 	background-color: rgba(195, 20, 50, 1);
@@ -4133,9 +4134,14 @@ button.accordion.active{
 }
 
 button.accordion:hover {
-  background-color: rgba(195, 20, 50, 1);
+  background-color: rgba(110, 16, 52, 1);
   
 }
+
+button.accordion.active:hover {
+	background-color: rgba(195, 20, 50, 1);
+	
+  }
 
 button.accordion:after {
   content: "\02795";
@@ -4177,4 +4183,12 @@ div.panel.show {
 .accordion-tray {
 	margin-top: 1em;
 	margin-bottom: 3em;
+}
+
+.accordion-tray p{
+	margin: 0.5em;
+}
+
+.accordion-tray li {
+  text-align: left;
 }
