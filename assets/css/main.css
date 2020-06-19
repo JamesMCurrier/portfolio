@@ -40,7 +40,6 @@ sub,
 sup,
 tt,
 var,
-b,
 u,
 i,
 center,
@@ -272,8 +271,7 @@ a:hover {
   border-bottom-color: transparent;
 }
 
-strong,
-b {
+strong{
   font-weight: 400;
 }
 
@@ -3522,8 +3520,7 @@ body.is-preload #header.alt .logo {
   color: #494949;
 }
 
-#main strong,
-#main b {
+#main strong{
   color: #494949;
 }
 
@@ -4191,4 +4188,14 @@ div.panel.show {
 
 .accordion-tray li {
   text-align: left;
+  margin: 0.3em;
 }
+
+.accordion-tray ul{
+  margin: 0.5em;
+}
+
+.accordion-tray b {
+  font-weight: bold;
+  color: #222222;
+  }
