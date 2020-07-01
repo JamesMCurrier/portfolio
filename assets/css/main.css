@@ -3265,14 +3265,14 @@ table.alt tbody tr td {
 }
 
 #header.alt > * {
-  -moz-transition: opacity 3s ease;
-  -webkit-transition: opacity 3s ease;
-  -ms-transition: opacity 3s ease;
-  transition: opacity 3s ease;
-  -moz-transition-delay: 0.5s;
-  -webkit-transition-delay: 0.5s;
-  -ms-transition-delay: 0.5s;
-  transition-delay: 0.5s;
+  -moz-transition: opacity 2s ease;
+  -webkit-transition: opacity 2s ease;
+  -ms-transition: opacity 2s ease;
+  transition: opacity 2s ease;
+  -moz-transition-delay: 0.2s;
+  -webkit-transition-delay: 0.2s;
+  -ms-transition-delay: 0.2s;
+  transition-delay: 0.2s;
   opacity: 1;
 }
 
@@ -4209,7 +4209,7 @@ b {
   height: 400px;
   perspective: 1000px;
   border-radius: 15px;
-  padding: 3px;
+  padding: 4px;
   border: 2px solid rgba(110, 16, 52, 0.75);
   display: inline-flex;
   margin: 15px;
@@ -4245,11 +4245,25 @@ b {
 }
 
 .flip-card-back {
-  background-color: #2980b9;
-  color: whitesmoke;
+  background-color: rgb(204, 204, 204);
+  color: black;
   transform: rotateY(180deg);
   border-radius: 15px;
+  border: solid 2px rgba(36, 11, 54, 1);
 }
+
+.flip-card-back h6 {
+font-size: 30px;
+padding: 3px 2px 0px 2px;
+margin: 0px;
+text-decoration: underline;
+}
+
+.flip-card-back .points{
+  margin: 0px;
+  padding: 10px 2px 0px 2px;
+}
+
 
 .flip-card-front img {
   width:100%;
@@ -4260,4 +4274,8 @@ b {
   display: block;
   border-radius: 15px;
   border: solid 2px rgba(36, 11, 54, 1);
+}
+
+.points {
+  font-size: 16px;
 }
