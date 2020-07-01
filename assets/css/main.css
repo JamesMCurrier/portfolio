@@ -4253,10 +4253,11 @@ b {
 }
 
 .flip-card-back h6 {
-font-size: 30px;
-padding: 3px 2px 0px 2px;
-margin: 0px;
-text-decoration: underline;
+  color: black !important;
+  font-size: 30px;
+  padding: 3px 2px 0px 2px;
+  margin: 0px;
+  text-decoration: underline;
 }
 
 .flip-card-back .points{
@@ -4278,4 +4279,23 @@ text-decoration: underline;
 
 .points {
   font-size: 16px;
+}
+
+.flip-card-back button {
+  background-color: whitesmoke;
+  color: #111111 !important;
+  font-weight: bold;
+  width: 80%;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 5px;
+  left: 10%;
+}
+
+.flip-card-back button:hover {
+  background-color: rgba(195, 20, 50, 1);
+}
+
+.up1 {
+  bottom: 43px !important;
 }
