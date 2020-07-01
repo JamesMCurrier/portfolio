@@ -3777,7 +3777,7 @@ body.is-preload #header.alt .logo {
 }
 
 #main .spotlight .image {
-  border-color: #dddddd;
+  border-color: rgba(36, 11, 54, 1);
 }
 
 #main > .main {
