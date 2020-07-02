@@ -4094,9 +4094,6 @@ canvas {
   margin: 0 0 0 0;
 }
 
-.resume-item ul {
-}
-
 .resume-item li {
   padding: 2px 0px 6px 0px;
 }
@@ -4298,4 +4295,16 @@ b {
 
 .up1 {
   bottom: 43px !important;
+}
+
+#see-github {
+  font-size: large;
+  color:  #111111 !important;
+  border-radius: 5px;
+  margin: 25px auto 40px auto;
+  display: block;
+}
+
+#see-github:hover{
+  background-color: rgba(195, 20, 50, 1);
 }
