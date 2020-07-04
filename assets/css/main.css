@@ -3948,6 +3948,10 @@ body.is-preload #header.alt .logo {
   margin: 0 auto;
 }
 
+.up1 {
+  bottom: 43px !important;
+}
+
 @media screen and (max-width: 570px) {
   #wrapper {
     max-width: calc(100% - 2em);
@@ -3959,25 +3963,39 @@ body.is-preload #header.alt .logo {
     max-width: 100%;
   }
   .flip-card{
-    max-width: 75vw;
-    max-height: 75vw;
+    max-width: 80vw;
+    max-height: 80vw;
     margin: auto;
   }
   #see-github{
     font-size: small!important;
   }
 
+  .points{
+    font-size:3vw !important;
+  }
+
+  .flip-card-back h6{
+    font-size: 4.5vw !important;
+  }
+
+  .flip-card-back button {
+    font-size: 3vw !important;
+    font-weight: normal !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   #main2 .avatar {
     border: none !important;
   }
-
-}
-
-@media screen and (max-width: 380px) {
-  #see-github{
-    font-size: small !important;
+  
+  .up1{
+    bottom: 9.5vw !important;
   }
+
 }
+
 
 /* Main2 */
 
@@ -4304,10 +4322,6 @@ b {
 
 .flip-card-back button:hover {
   background-color: rgba(195, 20, 50, 1);
-}
-
-.up1 {
-  bottom: 43px !important;
 }
 
 #see-github {
