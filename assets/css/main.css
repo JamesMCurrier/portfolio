@@ -166,7 +166,7 @@ body {
 @media screen and (max-width: 570px) {
   html,
   body {
-    min-width: 330px;
+    min-width: 320px;
   }
 }
 
@@ -3954,9 +3954,28 @@ body.is-preload #header.alt .logo {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 540px) {
   #wrapper {
     max-width: 100%;
+  }
+  .flip-card{
+    max-width: 75vw;
+    max-height: 75vw;
+    margin: auto;
+  }
+  #see-github{
+    font-size: small!important;
+  }
+
+  #main2 .avatar {
+    border: none !important;
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+  #see-github{
+    font-size: small !important;
   }
 }
 
@@ -4047,12 +4066,6 @@ body.is-preload #header.alt .logo {
 #main2 > .main2 {
   padding: 0em 5em 0em 5em;
   border-top: solid 1px #dddddd;
-}
-
-@media screen and (max-width: 570px) {
-  #main2 {
-    width: 90%;
-  }
 }
 
 @media screen and (max-width: 570px) {
