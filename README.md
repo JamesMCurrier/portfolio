@@ -1,3 +1,3 @@
-# Portfolio
+## A Portfolio of My Work
 
-A portfolio website of my work
+## View site: [jamesmcurrier.com](https://jamesmcurrier.com)
