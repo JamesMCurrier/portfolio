@@ -45,10 +45,10 @@
 		<!-- Nav -->
 		<nav id="nav">
 			<ul>
-				<li><a href="#intro" class="active">Introduction</a></li>
-				<li><a href="#experience">Experience</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#skills">Skills</a></li>
+				<li><a id="intro_a" href="#intro" class="active">Introduction</a></li>
+				<li><a id="experience_a" href="#experience">Experience</a></li>
+				<li><a id="projects_a" href="#projects">Projects</a></li>
+				<li><a id="skills_a" href="#skills">Skills</a></li>
 			</ul>
 		</nav>
 
@@ -70,9 +70,13 @@
 						<p>After 6 years of programming, I've worked in many different fields including Machine
 							Learning, Operating Systems, Web Development, Data Science, Business Intelligence, and
 							Application Development.</p>
-						<p>Check out <b>Experience</b> to see an overview of my professional experience, <b>Projects</b>
-							to see some cool projects I've made, or <b>Skills</b> for an overview of languages and
-							technologies I've worked with.</p>
+						<p>Check out <a><b style="cursor: pointer;"
+									onclick="document.getElementById('experience_a').click()">Experience</b></a> to see
+							an overview of my professional experience, <a><b style="cursor: pointer;"
+									onclick="document.getElementById('projects_a').click()">Projects</b></a> to see some
+							cool projects I've made, or <a><b style="cursor: pointer;"
+									onclick="document.getElementById('skills_a').click()">Skills</b></a> for an overview
+							of languages and technologies I've worked with.</p>
 					</div>
 					<span class="image">
 						<img src="assets/images/avatar2.jpg" alt="" />
@@ -123,7 +127,7 @@
 							increased profits.</li>
 						<li> Built software for teams to document, review, and prioritize completed, current, and future
 							projects. This program was used by multiple teams, and later evolved into the core code of
-							the company’s scheduling software.</li>
+							the group's project coordinating software.</li>
 					</ul>
 				</div>
 
