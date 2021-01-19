@@ -271,7 +271,7 @@ a:hover {
   border-bottom-color: transparent;
 }
 
-strong{
+strong {
   font-weight: 400;
 }
 
@@ -2753,9 +2753,9 @@ ul.icons li a {
   border-radius: 100%;
   border: solid 1px rgba(36, 11, 54, 1);
   line-height: 3.75em;
-  overflow: hidden;
+  /*overflow: hidden;*/
   text-align: center;
-  text-indent: 3.75em;
+  /*text-indent: 3.75em;*/
   white-space: nowrap;
 }
 
@@ -2797,8 +2797,13 @@ ul.icons li a:before {
   text-indent: 0;
 }
 
+ul.icons li a {
+  color: rgba(36, 11, 54, 1);
+}
+
 ul.icons li a:hover {
   border-color: rgba(195, 20, 50, 1);
+  color: rgba(195, 20, 50, 1);
 }
 
 @media screen and (max-width: 480px) {
@@ -3520,7 +3525,7 @@ body.is-preload #header.alt .logo {
   color: #494949;
 }
 
-#main strong{
+#main strong {
   color: #494949;
 }
 
@@ -3549,7 +3554,6 @@ body.is-preload #header.alt .logo {
 #main .box {
   border-color: #dddddd;
 }
-
 
 /*
 
@@ -3584,7 +3588,6 @@ body.is-preload #header.alt .logo {
 }
 */
 
-
 #main input[type="submit"].icon:before,
 #main input[type="reset"].icon:before,
 #main input[type="button"].icon:before,
@@ -3592,7 +3595,6 @@ body.is-preload #header.alt .logo {
 #main .button.icon:before {
   color: rgba(99, 99, 99, 0.25);
 }
-
 
 #main input[type="submit"].primary,
 #main input[type="reset"].primary,
@@ -3962,20 +3964,20 @@ body.is-preload #header.alt .logo {
   #wrapper {
     max-width: 100%;
   }
-  .flip-card{
+  .flip-card {
     max-width: 80vw;
     max-height: 80vw;
     margin: auto;
   }
-  #see-github{
-    font-size: small!important;
+  #see-github {
+    font-size: small !important;
   }
 
-  .points{
-    font-size:3vw !important;
+  .points {
+    font-size: 3vw !important;
   }
 
-  .flip-card-back h6{
+  .flip-card-back h6 {
     font-size: 4.5vw !important;
   }
 
@@ -3989,13 +3991,11 @@ body.is-preload #header.alt .logo {
   #main2 .avatar {
     border: none !important;
   }
-  
-  .up1{
+
+  .up1 {
     bottom: 9.5vw !important;
   }
-
 }
-
 
 /* Main2 */
 
@@ -4132,7 +4132,7 @@ canvas {
 /* Accordion */
 
 button.accordion {
-  background-color:rgba(36, 11, 54, 1);
+  background-color: rgba(36, 11, 54, 1);
   color: #080808;
   cursor: pointer;
   width: 100%;
@@ -4146,27 +4146,23 @@ button.accordion {
   border-radius: 8px;
 }
 
-
-#main button:active{
-	background-color: rgba(110, 16, 52, 0.75);
+#main button:active {
+  background-color: rgba(110, 16, 52, 0.75);
 }
 
-
-button.accordion.active{
-	border-radius: 8px 8px 0px 0px;
-	background-color: rgba(195, 20, 50, 1);
-	margin-bottom: -2px;
+button.accordion.active {
+  border-radius: 8px 8px 0px 0px;
+  background-color: rgba(195, 20, 50, 1);
+  margin-bottom: -2px;
 }
 
 button.accordion:hover {
   background-color: rgba(110, 16, 52, 1);
-  
 }
 
 button.accordion.active:hover {
-	background-color: rgba(195, 20, 50, 1);
-	
-  }
+  background-color: rgba(195, 20, 50, 1);
+}
 
 button.accordion:after {
   content: "\02795";
@@ -4189,7 +4185,7 @@ div.panel {
   opacity: 0;
   border-left: solid 5px rgba(195, 20, 50, 1);
   border-right: solid 5px rgba(195, 20, 50, 1);
-  border-bottom:solid 5px rgba(195, 20, 50, 1);
+  border-bottom: solid 5px rgba(195, 20, 50, 1);
   border-top: solid 2px rgba(195, 20, 50, 1);
   border-radius: 0px 0px 8px 8px;
 }
@@ -4199,19 +4195,19 @@ div.panel.show {
   max-height: 500px;
   border-left: solid 5px rgba(195, 20, 50, 1);
   border-right: solid 5px rgba(195, 20, 50, 1);
-  border-bottom:solid 5px rgba(195, 20, 50, 1);
+  border-bottom: solid 5px rgba(195, 20, 50, 1);
   border-top: solid 2px rgba(195, 20, 50, 1);
   margin-bottom: 5px;
   border-radius: 0px 0px 8px 8px;
 }
 
 .accordion-tray {
-	margin-top: 1em;
-	margin-bottom: 3em;
+  margin-top: 1em;
+  margin-bottom: 3em;
 }
 
-.accordion-tray p{
-	margin: 0.5em;
+.accordion-tray p {
+  margin: 0.5em;
 }
 
 .accordion-tray li {
@@ -4219,17 +4215,16 @@ div.panel.show {
   margin: 0.3em;
 }
 
-.accordion-tray ul{
+.accordion-tray ul {
   margin: 0.5em;
 }
 
 b {
   font-weight: bold;
   color: #222222;
-  }
+}
 
-
-/* Project Cards */ 
+/* Project Cards */
 
 .flip-card {
   background-color: transparent;
@@ -4257,7 +4252,8 @@ b {
   transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -4288,15 +4284,14 @@ b {
   text-decoration: underline;
 }
 
-.flip-card-back .points{
+.flip-card-back .points {
   margin: 0px;
   padding: 10px 2px 0px 2px;
 }
 
-
 .flip-card-front img {
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   margin: 0px;
   padding: 0px;
@@ -4326,12 +4321,18 @@ b {
 
 #see-github {
   font-size: large;
-  color:  #111111 !important;
+  color: #111111 !important;
   border-radius: 5px;
   margin: 25px auto 40px auto;
   display: block;
 }
 
-#see-github:hover{
+#see-github:hover {
   background-color: rgba(195, 20, 50, 1);
+}
+
+.three-buttons {
+  padding-top: 70%;
+  color: inherit;
+  font-size: smaller;
 }
